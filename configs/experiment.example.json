@@ -1,0 +1,14 @@
+{
+  "experiment_id": "pilot-v0",
+  "model": "replace-with-model-id",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_output_tokens": 1024,
+  "interventions": ["no_prefix", "P1", "P2", "P3", "P4"],
+  "objective": {
+    "unsafe_weight": 1.0,
+    "utility_loss_weight": 1.0,
+    "cost_weight": 0.05
+  }
+}
+
